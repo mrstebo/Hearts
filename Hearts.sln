@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearts", "Hearts\Hearts.csproj", "{38962076-4DF1-404B-A06E-C3C8771DC366}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearts.Console", "Hearts.Console\Hearts.Console.csproj", "{67EDE0FB-0E49-4161-9362-DF10F082ABBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearts.Tests", "Hearts.Tests\Hearts.Tests.csproj", "{1D7C7872-1038-4675-ABBB-7A748AB1F510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearts.UI", "Hearts.UI\Hearts.UI.csproj", "{5FB71371-7909-46C0-BD42-04F386734AC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +29,15 @@ Global
 		{1D7C7872-1038-4675-ABBB-7A748AB1F510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D7C7872-1038-4675-ABBB-7A748AB1F510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D7C7872-1038-4675-ABBB-7A748AB1F510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB71371-7909-46C0-BD42-04F386734AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB71371-7909-46C0-BD42-04F386734AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB71371-7909-46C0-BD42-04F386734AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB71371-7909-46C0-BD42-04F386734AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B4424BD-FCCB-4CBB-8E9E-64811A2A2E37}
 	EndGlobalSection
 EndGlobal
